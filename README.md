@@ -1,7 +1,7 @@
 # chamados-ads
 # API de Chamados de Suporte (`chamados-ads`)
 
-**Estudante:** Danilo Barros de Novaes — Matrícula: 2025013183  
+**Estudante:** Danilo Barros de Novaes — 
 **Disciplina:** Projeto Programação Web
 
 ## Objetivo
