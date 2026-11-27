@@ -53,8 +53,7 @@ def get_chamados():
 @app.get("/chamados/<int:chamado_id>")
 def get_chamado_by_id(chamado_id):
     """"Retorna o chamado que tem id == chamado_id"""
-    return {
-        "id": chamado_id,
-        "titulo": "Impressora com problema",
-        "status": "aberto"
-        }
+    for chamado in chamados:
+        if chamado["id"] == chamado_id:
+            return chamado, 200
+    return {"message": "Chamado não encontrando"}, 404
